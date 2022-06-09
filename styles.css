@@ -1,1 +1,27 @@
-/** Here will be CSS**/
+body {
+    background-color: #E4E6E7;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 33px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+.left-block {
+    background: #C0D8DE;
+}
+
+.right-block {
+    background: #E4E6E7;
+    ;
+}
+
+
+/**grid for page, flex for elements**/
