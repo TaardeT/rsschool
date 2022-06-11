@@ -1,27 +1,41 @@
 body {
-    background-color: #E4E6E7;
-    font-family: 'Roboto', sans-serif;;
-    font-size: 33px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    background: linear-gradient(to right, #C0D8DE 37%, #E4E6E7 37%);
 }
 
-h1 {
+.flex-container {
+    display: flex;
+}
+
+.flex-container-column {
+    text-align: center;
+}
+
+.left-column {
+    flex-basis: 37%;
+    align-items: center;
+    justify-content: center;
 
 }
 
-h2 {
+.right-column {
+    flex-basis: 63%;
+    align-items: center;
+   justify-content: center;
 
 }
 
-.left-block {
-    background: #C0D8DE;
+.navigation {
+    display: flex;
 }
 
-.right-block {
-    background: #E4E6E7;
-    ;
+img.avatar {
+    border-radius: 50%;
+    width: 50%;
 }
 
-
-/**grid for page, flex for elements**/
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+   ul {
+    padding-left: 0; /* Сдвигаем список влево */
+   }
